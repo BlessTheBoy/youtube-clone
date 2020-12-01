@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./Header";
+import RecomendedVideos from "./RecomendedVideos";
 import Sidebar from "./Sidebar";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <div className="app__page">
         <Sidebar />
+        <RecomendedVideos />
       </div>
     </div>
   );
