@@ -18,7 +18,7 @@ function ChannelRow({
       </Avatar>
       <div className="channelRow__text">
         <h4>
-          {channel} {verified && <VerifiedIcon />}
+          {channel + "   "} {verified && <VerifiedIcon className="verified" />}
         </h4>
         <p>
           {subs} subscribers . {noOfVideos} videos

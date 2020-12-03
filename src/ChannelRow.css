@@ -7,3 +7,19 @@
   display: flex;
   flex-direction: column;
 }
+.channelRow__text > p {
+  color: #606060;
+  font-size: small !important;
+}
+.channelRow__logo {
+  width: 120px !important;
+  height: 120px !important;
+  margin: 10px 60px;
+}
+.channelRow__text > h4 {
+  display: flex;
+  align-items: center;
+}
+.verified {
+  font-size: 16px !important;
+}
