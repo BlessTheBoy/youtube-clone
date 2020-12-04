@@ -15,10 +15,12 @@
   width: 120px !important;
   height: 120px !important;
   margin: 10px 60px;
+  cursor: pointer;
 }
 .channelRow__text > h4 {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .verified {
   font-size: 16px !important;

@@ -14,7 +14,7 @@ function VideoRow({
 }) {
   return (
     <div className="videoRow">
-      <img src={image} alt="" />
+      <img className="videoRow__image" src={image} alt="" />
       <div className="videoRow__text">
         <div className="top">
           <h3>{title}</h3>
